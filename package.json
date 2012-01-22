@@ -1,0 +1,15 @@
+{
+    "author": "Mark Armendariz <src@enobrev.com> (http://enobrev.com/)",
+    "name": "syslog-console",
+    "description": "Simplify usage of loggly by overriding console",
+    "version": "0.0.1",
+    "homepage": "http://enobrev.com/",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/enobrev/node-loggly-console.git"
+    },
+    "main" : "./lib/syslog-console",
+    "dependencies": {
+        "node-syslog": ">=0.0.1"
+    }
+}
