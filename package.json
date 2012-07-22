@@ -10,6 +10,6 @@
     },
     "main" : "./lib/syslog-console",
     "dependencies": {
-        "node-syslog": ">=0.0.1"
+        "node-syslog": "1.1.3"
     }
 }
