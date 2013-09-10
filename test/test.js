@@ -9,6 +9,8 @@
     syslog.critical('Critical');
     syslog.emergency('Emergency');
 
+    syslog.setBuildType('frame');
+    
     syslog.error({action: 'error', error: new Error('This is an Error')});
 
     var oRecursive = {
